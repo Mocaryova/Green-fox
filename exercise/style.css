@@ -1,0 +1,12 @@
+p {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #015668;
+    background: #0D91A1;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px;
+    border-style: double;
+    border-color: #015668;
+  }
