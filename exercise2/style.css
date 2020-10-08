@@ -1,0 +1,25 @@
+main {
+    border: 10px solid navy;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    width: 100px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 24px;
+}
+  .red {
+    background: #E67676;
+    margin: 5px;
+  }
+  .yellow {
+    background: #F2F062;
+    margin: 5px;
+  }
+  .green {
+    background: #A9E6E6;
+    margin: 5px;
+  }
+  .blue {
+    background: #7692E4;
+    margin: 5px;
+  }
