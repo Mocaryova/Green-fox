@@ -1,24 +1,82 @@
-.pic {
-    display: block;
+body {
+  position: relative;
+  max-width: 700px;
+  max-height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("file:///C:/Users/mrado/Desktop/photos/background.jpg");
+}
+  #photo{
     margin-top: 200px;
     margin-bottom: auto;
     width: 600px;
     height: 400px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  body {
-    display: flex;
-    justify-content: center;
+    z-index: 1;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
   }
   button {
     margin-top: 200px;
     width: 50px;
     height: 400px;
-    margin-left: 0px;
-    margin-right: 0px;
-
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    border: 0px;
+  }
+  .butt1 {
+    position: relative;
+    float: left;
   }
   .butt2 {
     transform: rotate(0.5turn);
+  }
+  .gray-container {
+     opacity: 0.5;
+      position: absolute;
+      display: block;
+      width: 595px;
+      height: 100px;
+      z-index: 2;
+      text-align: left;
+      background-color: black;
+      padding: 3px;
+      color:white;
+      top: 495px;
+      left: 7%;
+  }
+  h2 {
+    position: relative;
+    padding: 0px;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  p {
+    margin-top: 4px;
+    margin-left: 10px;
+  }
+  div#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 700px;
+  }
+  .thumb {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom:0px;
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .thumb:hover {
+    transform: scale(1.1);
   }
